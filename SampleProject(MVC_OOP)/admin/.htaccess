@@ -1,0 +1,9 @@
+#turn on url rewriting 
+RewriteEngine on
+
+#remove the need for .php extention 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l  
+#RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

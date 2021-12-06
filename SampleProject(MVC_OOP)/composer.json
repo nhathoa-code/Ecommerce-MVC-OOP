@@ -1,0 +1,11 @@
+{
+    "name": "nhathoa/mvc-oop",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Admin\\Controllers\\":"controllers/admin",
+            "Site\\Controllers\\":"controllers/site"
+        }
+    }
+}

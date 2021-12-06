@@ -1,0 +1,33 @@
+/*--- phan trang ---*/
+div.page-nav {
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div.page-nav span.item a {
+  text-decoration: none;
+  color: #a1a1a1;
+  background-color: #000;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.125rem;
+  border-radius: 0.125rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+div.page-nav span.item a:hover {
+  background-color: rgb(233, 236, 239);
+  transition: 0.5s background-color;
+  color: #000;
+}
+.active-page {
+  background-color: rgb(233, 236, 239) !important;
+  color: #000 !important;
+}
+
+table img {
+  width: 100px;
+  height: auto;
+}
